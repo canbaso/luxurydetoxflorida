@@ -272,7 +272,7 @@ For an image showing a bedroom, pool, exterior, waterfront property, dining area
 
 ### 3.6 Image evidence record
 
-During research, maintain an image record for each ranked facility containing:
+During research, maintain a separate image record for each ranked facility containing:
 
 - facility name;
 - property/location;
@@ -282,7 +282,9 @@ During research, maintain an image record for each ranked facility containing:
 - attribution/license note when applicable;
 - proposed alt text.
 
-The article should not claim that an image depicts a facility unless this evidence exists.
+This evidence record is an internal research artifact. It must never be embedded in the publishable article HTML, even as an HTML comment.
+
+The article should not claim that an image depicts a facility unless this evidence exists. If an image cannot legally or confidently be used, omit the image from the article and keep the reason only in the research record.
 
 ---
 
@@ -925,6 +927,7 @@ Before delivery, check all of the following.
 - [ ] FAQ schema matches visible FAQ.
 - [ ] ItemList schema matches ranking.
 - [ ] No unnecessary divs, icons, canvas, or emojis.
+- [ ] No internal editorial notes, TODOs, verification notes, image research, licensing notes, or workflow comments appear anywhere in the publishable HTML.
 - [ ] Each ranked facility has a verified image when a usable image exists.
 - [ ] Facility images are placed with the matching profile.
 - [ ] Alt text is factual and descriptive, not keyword-stuffed.
@@ -947,7 +950,7 @@ For a full article, deliver:
 9. sources;
 10. schema;
 11. verified facility images embedded with the matching profiles when usable images are available;
-12. image source/attribution information needed for publication.
+12. image source/attribution information needed for publication, delivered separately from the consumer-facing article HTML.
 
 Do not stop after research unless the user explicitly asks for research only.
 
