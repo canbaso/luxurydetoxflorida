@@ -409,6 +409,31 @@ Use:
 
 Primary source should normally be the facility's current official website, then cross-check important regulatory claims.
 
+### Inline evidence and E-E-A-T
+
+Evidence must appear at the point of claim.
+
+For specific research findings:
+
+1. identify the study in the prose;
+2. link directly to PubMed, PMC, the DOI, journal page, or other primary source;
+3. state the sample and setting when they matter;
+4. state whether the study was observational, randomized, retrospective, etc. when that changes interpretation;
+5. avoid converting association into causation;
+6. include an important limitation when it materially affects applicability.
+
+Bad:
+
+> Research shows that six months in sober living produces better outcomes.
+
+Better:
+
+> A 2023 longitudinal study of 455 sober-living residents in Los Angeles County found that residents who stayed at least six months had more abstinent days and better psychiatric, substance-use, and legal outcomes than residents who left earlier. Because the study was observational and limited to sober-living houses in one California region, it shows an association rather than proving that a six-month stay causes better outcomes.
+
+Link the words `2023 longitudinal study` or the study title directly to the primary source.
+
+Do not hide the only evidence for a research claim in the Sources section at the bottom of the article.
+
 ### Avoid
 
 Do not use another treatment center's blog as the authority for a general medical claim when NIDA, NIAAA, SAMHSA, CDC, ASAM, or a peer-reviewed source is available.
@@ -883,6 +908,9 @@ Before delivery, check all of the following.
 - [ ] Related ideas are grouped into cohesive 2-4 sentence paragraphs instead of stacked one-sentence paragraphs.
 - [ ] One-sentence paragraphs are used only intentionally.
 - [ ] Claims are specific and direct.
+- [ ] Named studies and quantitative research claims have inline primary-source links.
+- [ ] "Research shows" and "a study found" are not used without identifying and linking the evidence.
+- [ ] Study limitations are stated when they affect how the finding should be interpreted.
 
 ### WordPress
 
