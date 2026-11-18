@@ -73,6 +73,10 @@ Do not write "many people search for..." or discuss search volume inside consume
 
 Do not use telegram-style fragments. Short sentences are encouraged, but paragraphs should still read naturally.
 
+Do not stack a sequence of one-sentence paragraphs when the ideas belong together. Default to cohesive paragraphs of roughly 2-4 sentences. Use a one-sentence paragraph only when it has a clear rhetorical or structural reason.
+
+For WordPress HTML delivery, output real HTML tags only. Never mix markdown headings such as `##` or `###` into the article, and never escape HTML tags as `\<section>` or `\<p>`.
+
 Use people-first language. Do not sensationalize addiction, withdrawal, mental illness, relapse, overdose, or psychiatric symptoms.
 
 ## Facility images
