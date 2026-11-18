@@ -79,6 +79,17 @@ For WordPress HTML delivery, output real HTML tags only. Never mix markdown head
 
 Use people-first language. Do not sensationalize addiction, withdrawal, mental illness, relapse, overdose, or psychiatric symptoms.
 
+## E-E-A-T and inline evidence
+
+Specific research claims must be supported where the reader encounters them, not only in a Sources section.
+
+- When citing a study, name or clearly identify the study and link the primary source inline.
+- For PubMed-indexed research, prefer PubMed, PMC, the journal DOI, or the journal article itself.
+- When a statistic, sample size, outcome, date, law, regulation, or official guidance materially supports a sentence, place a source link at that sentence or paragraph.
+- Do not write vague phrases such as "research shows" or "a study found" without identifying the research.
+- Include relevant limitations such as observational design, geography, population, or lack of causality when they materially affect interpretation.
+- The Sources section supplements inline evidence. It does not replace it.
+
 ## Facility images
 
 Facility-list articles require an image research pass.
