@@ -17,7 +17,9 @@ Complete the research pass first.
 
 ### 1.1 Keyword research
 
-Use Semrush before drafting a new SEO article.
+Use both Semrush and Ahrefs before drafting a new SEO article.
+
+#### Semrush pass
 
 For the proposed topic:
 
@@ -32,9 +34,39 @@ For the proposed topic:
    - close variants;
    - question keywords;
    - related terms.
-6. Choose one primary keyword.
-7. Choose secondary keywords that belong to the same intent.
-8. Avoid creating two articles that answer the same search intent.
+
+#### Ahrefs pass
+
+Run the same target set through Ahrefs and record, when available:
+
+- U.S. search volume;
+- keyword difficulty;
+- parent topic;
+- traffic potential;
+- matching terms and related terms;
+- current top-ranking pages;
+- estimated traffic to ranking pages;
+- referring-domain strength of the current SERP;
+- obvious content gaps or weaker pages that can be beaten.
+
+#### Cross-tool decision rule
+
+Do not trust either platform automatically.
+
+When Semrush and Ahrefs differ materially on volume, keyword difficulty, or SERP competitiveness:
+
+1. record both estimates in the research notes;
+2. inspect the actual ranking pages;
+3. compare domain strength, page-level backlinks, content depth, intent match, and ranking-page traffic;
+4. choose the target based on the combined evidence.
+
+A large KD discrepancy is not an error by itself. Semrush and Ahrefs use different models. The workflow must explain which source better reflects the visible SERP before choosing the keyword.
+
+After both passes:
+
+1. choose one primary keyword;
+2. choose secondary keywords that belong to the same intent;
+3. avoid creating two articles that answer the same search intent.
 
 Do not force the exact keyword into the title when a broader phrase has materially stronger demand and the same intent.
 
@@ -42,7 +74,27 @@ Example:
 
 If `luxury sober living florida` has lower search volume than `sober living florida` and `luxury sober living`, the H1 can target the exact Florida intent while the article naturally covers the larger terms.
 
-### 1.2 SERP research
+### 1.2 Ahrefs competitor and content-gap check
+
+Before drafting, use Ahrefs to review the pages currently winning the target topic.
+
+For the top-ranking pages, check:
+
+- ranking URL and title;
+- estimated organic traffic;
+- number of ranking keywords;
+- referring domains;
+- page-level backlink strength;
+- domain strength;
+- whether the ranking page is a facility page, list article, directory, or informational guide;
+- whether the page satisfies the same intent as the planned article;
+- content gaps that can be answered better with current evidence.
+
+Use Ahrefs to identify pages that look strong because of domain authority alone versus pages that are genuinely comprehensive and well matched to intent.
+
+Do not copy competitor structure mechanically. The purpose is to understand what must be surpassed.
+
+### 1.3 SERP research
 
 Search the live web for:
 
@@ -874,6 +926,11 @@ Before delivery, check all of the following.
 ### Research
 
 - [ ] Semrush research completed.
+- [ ] Ahrefs keyword research completed.
+- [ ] Semrush and Ahrefs volume/KD differences reviewed.
+- [ ] Ahrefs parent topic and traffic potential checked when available.
+- [ ] Ahrefs ranking-page traffic and backlink strength reviewed.
+- [ ] Competitor/content-gap review completed before drafting.
 - [ ] Search intent confirmed.
 - [ ] Live SERP checked.
 - [ ] Facility names discovered through current search rather than memory alone.
@@ -942,15 +999,16 @@ For a full article, deliver:
 1. SEO title;
 2. focus keyword;
 3. secondary keywords;
-4. slug;
-5. meta description;
-6. complete WordPress-ready article;
-7. table;
-8. FAQs;
-9. sources;
-10. schema;
-11. verified facility images embedded with the matching profiles when usable images are available;
-12. image source/attribution information needed for publication, delivered separately from the consumer-facing article HTML.
+4. Semrush + Ahrefs research summary in the internal research record;
+5. slug;
+6. meta description;
+7. complete WordPress-ready article;
+8. table;
+9. FAQs;
+10. sources;
+11. schema;
+12. verified facility images embedded with the matching profiles when usable images are available;
+13. image source/attribution information needed for publication, delivered separately from the consumer-facing article HTML.
 
 Do not stop after research unless the user explicitly asks for research only.
 
