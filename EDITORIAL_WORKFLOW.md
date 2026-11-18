@@ -286,7 +286,7 @@ The article should not claim that an image depicts a facility unless this eviden
 
 ---
 
-## 5. Ranking rubric
+## 4. Ranking rubric
 
 Rank facilities only after verification.
 
