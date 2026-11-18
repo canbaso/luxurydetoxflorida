@@ -177,7 +177,116 @@ Do not pad a Top 10 list. A smaller accurate list is better than ten questionabl
 
 ---
 
-## 3. Ranking rubric
+
+## 3. Facility image research workflow
+
+Facility images are part of the research process, not a final cosmetic pass.
+
+For every facility that survives verification and is likely to appear in the final ranking:
+
+### 3.1 Search for the actual facility
+
+Search using combinations such as:
+
+- `[facility name] [city] exterior`
+- `[facility name] campus`
+- `[facility name] residence`
+- `[facility name] accommodations`
+- `[facility name] official photos`
+- `site:[official domain] [facility name] photos`
+
+Use image search in addition to normal web search when it helps locate the facility's current property images.
+
+### 3.2 Image-source priority
+
+Prefer sources in this order:
+
+1. official facility website;
+2. official property/program page;
+3. official press or media kit;
+4. official organization social account when reuse is permitted;
+5. clearly licensed third-party image source.
+
+Do not use:
+
+- unrelated stock photography;
+- another facility's building;
+- Google review photos without a clear right to republish;
+- screenshots of Google Maps;
+- images from directories merely because they rank in search;
+- AI-generated images presented as the real facility;
+- watermarked images;
+- outdated images when a current facility image is available.
+
+### 3.3 Verify the image
+
+Before including an image, confirm:
+
+- it depicts the named facility, campus, residence, or a clearly identified space within it;
+- it belongs to the correct Florida location;
+- it is current enough to represent the property;
+- the source page is preserved;
+- the direct image URL or media asset is preserved when available;
+- any required attribution or license language is recorded.
+
+If the facility has multiple Florida properties, identify which property the image shows. Do not use a photo from one location to illustrate another without saying so.
+
+### 3.4 Article placement
+
+For ranked articles, aim for one facility image per ranked entry.
+
+Place the image after the facility H3 and "Best for" line, before or near the main descriptive paragraphs.
+
+Preferred WordPress pattern:
+
+```html
+<figure style="margin:20px 0;">
+  <img src="VERIFIED-IMAGE-URL" alt="Facility Name in City, Florida" loading="lazy" style="width:100%;height:auto;">
+  <figcaption>Facility Name, City, Florida. Image: Source/Facility Name.</figcaption>
+</figure>
+```
+
+Use a caption only when attribution, clarification, or property identification is useful.
+
+Do not invent the image URL. If a reusable direct image URL is not available, preserve the source page and flag the image for upload rather than fabricating markup.
+
+### 3.5 Image SEO
+
+Alt text must:
+
+- identify the facility;
+- identify the Florida city when useful;
+- describe what is visibly shown;
+- stay factual;
+- avoid keyword stuffing.
+
+Good:
+
+> RECO Institute recovery residence with swimming pool in Delray Beach, Florida
+
+Bad:
+
+> best luxury detox rehab Florida top treatment center addiction recovery
+
+For an image showing a bedroom, pool, exterior, waterfront property, dining area, or campus, say so accurately.
+
+### 3.6 Image evidence record
+
+During research, maintain an image record for each ranked facility containing:
+
+- facility name;
+- property/location;
+- source page URL;
+- direct image URL when available;
+- what the image depicts;
+- attribution/license note when applicable;
+- proposed alt text.
+
+The article should not claim that an image depicts a facility unless this evidence exists.
+
+---
+
+## 5. Ranking rubric
 
 Rank facilities only after verification.
 
@@ -266,7 +375,7 @@ unless reliable comparative outcome data actually supports the claim.
 
 ---
 
-## 4. Medical and legal research standards
+## 5. Medical and legal research standards
 
 This site covers YMYL topics. Medical, legal, insurance, and safety statements require stronger sources than ordinary lifestyle copy.
 
@@ -308,7 +417,7 @@ Do not use a competitor's marketing article as evidence that another competitor 
 
 ---
 
-## 5. Writing Iteration: prose harness
+## 6. Writing Iteration: prose harness
 
 ### 5.1 Direct statement over performance
 
@@ -427,7 +536,7 @@ The research process can be rigorous without becoming part of the consumer-facin
 
 ---
 
-## 6. Article structure
+## 7. Article structure
 
 Default target: 2,500 to 3,000 words unless a different length is requested.
 
@@ -561,7 +670,7 @@ Do not overlink the same page repeatedly.
 
 ---
 
-## 7. Cost articles
+## 8. Cost articles
 
 Never invent an "average" when no reliable average exists.
 
@@ -584,7 +693,7 @@ Use current published rates only. Include the date context when rates are likely
 
 ---
 
-## 8. Sober-living articles
+## 9. Sober-living articles
 
 Keep sober living distinct from treatment.
 
@@ -610,7 +719,7 @@ For Florida law and certification, verify the current statute and DCF/FARR infor
 
 ---
 
-## 9. Mental-health articles
+## 10. Mental-health articles
 
 Do not assume that an addiction facility with a dual-diagnosis page is a primary mental-health residential facility.
 
@@ -632,7 +741,7 @@ For ADHD specifically, do not imply that residential treatment is routine first-
 
 ---
 
-## 10. Detox and rehab articles
+## 11. Detox and rehab articles
 
 Detox and rehab are different stages of care.
 
@@ -663,7 +772,7 @@ Do not describe a rehab as having onsite detox unless the facility currently doc
 
 ---
 
-## 11. FAQs
+## 12. FAQs
 
 Use FAQs to answer actual decision questions.
 
@@ -688,7 +797,7 @@ The schema wording must match the visible FAQ content closely.
 
 ---
 
-## 12. Structured data
+## 13. Structured data
 
 ### Ranked lists
 
@@ -710,7 +819,7 @@ Do not add duplicate Article schema when the WordPress SEO plugin already genera
 
 ---
 
-## 13. Sources section
+## 14. Sources section
 
 Ranked articles should include a Sources section.
 
@@ -727,7 +836,7 @@ Do not cite a source that does not actually support the statement.
 
 ---
 
-## 14. Final quality-control pass
+## 15. Final quality-control pass
 
 Before delivery, check all of the following.
 
@@ -743,6 +852,10 @@ Before delivery, check all of the following.
 - [ ] Exact service verified.
 - [ ] Licensing/certification claims cross-checked when relevant.
 - [ ] Prices are current and published, not inferred.
+- [ ] A current image was searched for every ranked facility.
+- [ ] Each used image was verified as the correct facility/property.
+- [ ] Image source pages and direct image URLs were recorded where available.
+- [ ] Reuse/attribution requirements were checked before publication.
 
 ### Accuracy
 
@@ -776,10 +889,14 @@ Before delivery, check all of the following.
 - [ ] FAQ schema matches visible FAQ.
 - [ ] ItemList schema matches ranking.
 - [ ] No unnecessary divs, icons, canvas, or emojis.
+- [ ] Each ranked facility has a verified image when a usable image exists.
+- [ ] Facility images are placed with the matching profile.
+- [ ] Alt text is factual and descriptive, not keyword-stuffed.
+- [ ] No generic stock image is presented as a real facility.
 
 ---
 
-## 15. Delivery rule
+## 16. Delivery rule
 
 For a full article, deliver:
 
@@ -792,7 +909,9 @@ For a full article, deliver:
 7. table;
 8. FAQs;
 9. sources;
-10. schema.
+10. schema;
+11. verified facility images embedded with the matching profiles when usable images are available;
+12. image source/attribution information needed for publication.
 
 Do not stop after research unless the user explicitly asks for research only.
 
