@@ -99,10 +99,11 @@ Facility-list articles require an image research pass.
 - Verify the property/program shown before using the image.
 - Do not use a generic stock treatment-center photo as if it depicts the named facility.
 - Do not use logos when a real property/campus/residence photo is available.
-- Record both the image URL and the page where the image was found.
+- Record both the image URL and the page where the image was found in a separate research record, never inside the consumer-facing article HTML.
 - Use factual alt text such as `RECO Institute recovery residence in Delray Beach, Florida`.
 - Place the image directly inside or immediately after the corresponding facility profile.
-- If reuse rights are unclear, do not falsely label the image as reusable. Preserve the source for editorial review instead.
+- If reuse rights are unclear, do not falsely label the image as reusable. Preserve the source for editorial review outside the article.
+- Never place editorial notes, licensing notes, verification notes, TODOs, image-research comments, or internal instructions inside the publishable HTML, including inside HTML comments.
 
 ## WordPress format
 
