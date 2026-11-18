@@ -11,14 +11,16 @@ Do not skip research because a facility, treatment center, law, accreditation, p
 ## Mandatory research sequence
 
 1. Research the target keyword in Semrush before drafting.
-2. Compare the exact keyword with broader and adjacent phrases. Record volume, keyword difficulty, intent, and useful related queries when available.
-3. Search the live web for the current SERP and competing article types.
-4. For facility-list articles, discover candidate facility names before writing. Build a candidate pool larger than the final list.
-5. Verify every selected facility against its current official website and, where relevant, current Florida regulatory or credentialing sources.
-6. Verify that the facility actually provides the service named in the article. Do not infer a service from a broad "mental health," "dual diagnosis," "luxury," or "recovery" claim.
-7. Use authoritative medical and government sources for clinical, legal, licensing, insurance, and safety claims.
-8. For every ranked facility, search for a current facility/property image during the same research pass. Verify that the image actually depicts the named facility or residence and record the source page.
-9. Include one verified facility image with each ranked profile when a usable image is available. Never substitute an unrelated stock image and present it as the facility.
+2. Research the same keyword set in Ahrefs before drafting.
+3. Compare the exact keyword with broader and adjacent phrases across both tools. Record volume, keyword difficulty, intent/parent topic, traffic potential where available, and useful related queries.
+4. Compare Semrush and Ahrefs estimates. If keyword difficulty, volume, or SERP interpretation differs materially, document the discrepancy in the research notes and choose the target based on the combined evidence rather than trusting one platform automatically.
+5. Search the live web for the current SERP and competing article types.
+6. For facility-list articles, discover candidate facility names before writing. Build a candidate pool larger than the final list.
+7. Verify every selected facility against its current official website and, where relevant, current Florida regulatory or credentialing sources.
+8. Verify that the facility actually provides the service named in the article. Do not infer a service from a broad "mental health," "dual diagnosis," "luxury," or "recovery" claim.
+9. Use authoritative medical and government sources for clinical, legal, licensing, insurance, and safety claims.
+10. For every ranked facility, search for a current facility/property image during the same research pass. Verify that the image actually depicts the named facility or residence and record the source page.
+11. Include one verified facility image with each ranked profile when a usable image is available. Never substitute an unrelated stock image and present it as the facility.
 
 ## Facility ranking rule
 
