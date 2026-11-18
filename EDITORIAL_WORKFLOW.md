@@ -484,7 +484,9 @@ Use:
 - exact facility names;
 - exact locations;
 - short to medium paragraphs;
-- enough variation that the article does not become telegram-style prose.
+- enough variation that the article does not become telegram-style prose;
+- cohesive paragraphs, usually 2-4 sentences when the ideas belong together;
+- single-sentence paragraphs only when there is a deliberate reason for emphasis, transition, or readability.
 
 Prefer:
 
@@ -566,6 +568,8 @@ Use one H1.
 Use H2s for major sections and H3s for facility entries and FAQ questions.
 
 Avoid unnecessary `<div>` elements.
+
+The final article must be valid, directly pasteable HTML. Do not mix Markdown headings (`##`, `###`) into the article. Do not escape HTML tags with backslashes. A heading must be written as `<h2>...</h2>` or `<h3>...</h3>`, never as Markdown.
 
 ### 6.3 Opening
 
@@ -876,11 +880,15 @@ Before delivery, check all of the following.
 - [ ] No search-volume discussion inside article copy.
 - [ ] No repetitive "this isn't X, it's Y" construction.
 - [ ] Paragraphs are readable and not telegram-style.
+- [ ] Related ideas are grouped into cohesive 2-4 sentence paragraphs instead of stacked one-sentence paragraphs.
+- [ ] One-sentence paragraphs are used only intentionally.
 - [ ] Claims are specific and direct.
 
 ### WordPress
 
 - [ ] One H1.
+- [ ] Final article contains no Markdown heading markers such as `##` or `###`.
+- [ ] HTML tags are not backslash-escaped.
 - [ ] Section-based HTML.
 - [ ] Comparison table included when useful.
 - [ ] Relevant internal links.
